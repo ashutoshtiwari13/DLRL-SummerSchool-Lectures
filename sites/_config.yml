@@ -10,7 +10,7 @@ title:               DL-RL Summer School Notes
 tagline:             'Summaries and Notes'
 description:         'This is a centralized Notes section for my summaries of the amazing - <i><b> DL-RL Summer School Lecture </b></i> series of 2019 amd 2018.'
 url:                 ''
-baseurl:             'https://www.google.com/dlrlsummerschool/'
+baseurl:             'https://www.ashutoshtiwari13.github.io/dlrlsummerschool/'
 paginate:            10
 plugins:             [jekyll-paginate]
 
