@@ -1,0 +1,33 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           '/:title'
+# relative_permalinks: true
+
+
+# Setup
+title:               DL-RL Summer School Notes
+tagline:             'Summaries and Notes'
+description:         'This is a centralized Notes section for my summaries of the amazing - <i><b> DL-RL Summer School Lecture </b></i> series of 2019 amd 2018.'
+url:                 ''
+baseurl:             'https://ashutoshtiwari13.github.io/dlrlsummerschool'
+paginate:            10
+plugins:             [jekyll-paginate]
+
+# About/contact
+author:
+  name:              Ashutosh Kumar Tiwari
+  url:               https://ashutoshtiwari13.github.io
+  email:             reachatashutosh@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
+str_continue_reading: " Continue reading"
+
+github:
+  repo: https://github.com/ashutoshtiwari13/DLRL-SummerSchool-Lectures
