@@ -7,9 +7,9 @@ permalink: '/:title'
 title:               'DL-RL Summer School Notes'
 tagline:             'Summaries and Notes'
 description:         'This is a centralized Notes section for my summaries of the amazing - <i><b> DL_RL Summer School Lecture </b></i> series of 2019 amd 2018'
-baseurl:             'https://ashutoshtiwari.github.io/dlrlsummerschool-Notes'
+baseurl:             'https://ashutoshtiwari13.github.io/dlrlsummerschool-Notes'
 paginate:            10
-permalink:           [jekyll-paginate]
+plugins:              [jekyll-paginate]
 
 # About/contact
 author:
@@ -17,9 +17,7 @@ author:
   url:               https://ashutoshtiwari13.github.io
   email:             reachatashutosh@gmail.com
 
-# Gems
-plugins:
-  - jekyll-paginate
+
 
 # Custom vars
 version:             1.1.0
