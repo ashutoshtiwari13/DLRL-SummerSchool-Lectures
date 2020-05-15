@@ -1,8 +1,8 @@
 ---
 layout: post
-title: VQA-Visual Question Answering
+title: Sample Video Summary for testing
 comments: True
-excerpt: Given an image and a free-form, open-ended, natural language question (about the image), produce the answer for the image.
+excerpt: Testing
 tags: ['2015', 'ICCV 2015', AI, CV, Dataset, ICCV, NLP, VQA]
 ---
 

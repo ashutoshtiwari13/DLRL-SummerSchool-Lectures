@@ -2,7 +2,11 @@
 layout: default
 ---
 
-<META HTTP-EQUIV='Content-Security-Policy' CONTENT="default-src 'self' ; script-src 'self' 'unsafe-inline' *.github.io *.github.com  requirejs.org www.google-analytics.com; style-src 'self' 'unsafe-inline' *.github.io; img-src 'self' *; media-src 'self' ; frame-src github.com;">
+<!-- <div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  {{ content }}
+</div> -->
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <p class="entry-tags">{% for tag in page.tags %}<a href="{{ site.baseurl }}/tags.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</p>
@@ -14,7 +18,7 @@ layout: default
 <div class="related">
   <h2>Related posts</h2>
   <ul class="related-posts">
-    {% for post in site.related_posts limit:4 %}
+    {% for post in site.related_posts limit:3 %}
       <li>
         <h3>
           <a href="{{ site.baseurl }}{{ post.url }}">
